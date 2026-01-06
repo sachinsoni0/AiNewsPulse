@@ -1,0 +1,22 @@
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+COPY ["AiNewsPulse.ConsoleUI/AiNewsPulse.ConsoleUI.csproj", "AiNewsPulse.ConsoleUI/"]
+COPY ["AiNewsPulse.Application/AiNewsPulse.Application.csproj", "AiNewsPulse.Application/"]
+COPY ["AiNewsPulse.Infrastructure/AiNewsPulse.Infrastructure.csproj", "AiNewsPulse.Infrastructure/"]
+COPY ["AiNewsPulse.Core/AiNewsPulse.Core.csproj", "AiNewsPulse.Core/"]
+
+RUN dotnet restore "AiNewsPulse.ConsoleUI/AiNewsPulse.ConsoleUI.csproj"
+
+COPY . .
+WORKDIR "/src/AiNewsPulse.ConsoleUI"
+RUN dotnet publish "AiNewsPulse.ConsoleUI.csproj" -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/runtime:9.0 AS final
+WORKDIR /app
+
+COPY --from=build /app/publish .
+
+WORKDIR /app/data
+
+ENTRYPOINT ["dotnet", "../AiNewsPulse.ConsoleUI.dll"]

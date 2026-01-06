@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ainewspulse:
+    image: ainewspulse:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_news_pulse_app
+    
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    
+    environment:
+      - OLLAMA_HOST=host.docker.internal
+      - AiSettings__ModelId=llama3.2
+
+    volumes:
+      - ./output:/app/data
+
+    stdin_open: true 
+    tty: true
